@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+        }
+        .block {
+            position: absolute;
+            top: 500px;
+        }
+        .block_1 {
+            left: 30px;
+        }
+        .block_2 {
+            left: 180px;
+        }
+        .block_3 {
+            left: 330px;
+        }
+        .block_4 {
+            left: 480px;
+        }
+        .block_5 {
+            left: 630px;
+        }
+        .block_6 {
+            left: 780px;
+        }
+        .block_7 {
+            left: 930px;
+        }
+        .block_8 {
+            left: 1080px;
+        }
+        .mario {
+            position: absolute;
+            width: 150px;
+            box-sizing: border-box;
+            top: 405px;
+            left: 50px;
+            animation: mario 5s infinite;
+        }
+        .block_9 {
+            position: absolute;
+            top: 350px;
+            left: 330px;
+        }
+        .block_10 {
+            position: absolute;
+            top: 250px;
+            left: 780px;
+        }
+        .block_11 {
+            position: absolute;
+            top: 250px;
+            left: 930px;
+        }
+        .luckyblock2 {
+            position: absolute;
+           width: 150px;
+            top: 100px;
+            left: 1000px;
+            animation: block2 5s infinite;
+        }
+        .cloud {
+            position: absolute;
+            width: 600px;
+            box-sizing: border-box;
+        }
+        .cloud_1 {
+            left: 180px;
+            top: 0px;
+            animation: cloud 10s infinite;
+        }
+        .cloud_2 {
+            left: 600px;
+            top: -50px;
+            z-index: -1;
+            animation: cloud2 10s infinite;
+        }
+        @keyframes cloud {
+            0% {left: 180px}
+            100% {left: 800px;}
+        }
+        @keyframes  cloud2 {
+            0% {left: 600px;}
+            100% {left: 1200px;}
+        }
+
+
+        @keyframes mario{
+            23% {left: 305px; top: 405px;}
+            26% {left: 315px; top: 255px;}
+            31% {left: 400px; top: 255px;}
+            32% {left: 400px; top: 230px;}
+            33% {left: 400px; top: 255px;}
+            37% {left: 485px; top: 255px;}
+            40% {left: 490px; top: 405px;}
+            50% {left: 740px; top: 405px;}
+            55% {left: 760px; top: 155px;}
+            83% {left: 990px; top: 155px;}
+            84% {left: 990px; top: 130px;}
+            85% {left: 990px; top: 155px;}
+            88% {left: 1100px; top: 155px;}
+            94% {left: 1100px; top: 155px;}
+            97% {left: 1105px; top: 405px;}
+            100% {left: 1205px; top: 405px;}
+        }
+        .luckyblock {
+            position: absolute;
+            width: 150px;
+            left: 420px;
+            top: 210px;
+            animation: block 5s infinite;
+        }
+        .coin {
+            position: absolute;
+            width: 150px;
+            left: 410px;
+            top: 210px;
+            animation: coin 5s infinite;
+        }
+        .coin2 {
+            position: absolute;
+            width: 150px;
+            left: 1000px;
+            top: 100px;
+            animation: coin2 5s infinite;
+        }
+        .shelly {
+            position: absolute;
+            left: 100px;
+            animation: shelly 5s infinite;
+        }
+        @keyframes block {
+            0% {opacity: 100%;}
+            31% {opacity: 100%;}
+            32% {opacity: 0%;}
+            100% {opacity: 0%;}
+        }
+        @keyframes coin {
+            0% {opacity: 0%;}
+            31% {opacity: 0%; top: 210px;}
+            38% {opacity: 100%; top: 170px;}
+            45% {opacity: 0%; top: 210px;}
+            100% {opacity: 0%;}
+        }
+        @keyframes block2 {
+            0% {opacity: 100%;}
+            84% {opacity: 100%;}
+            85% {opacity: 0%;}
+            100% {opacity: 0%;}
+        }
+        @keyframes coin2 {
+            0% {opacity: 0%;}
+            84% {opacity: 0%; top: 100px;}
+            90% {opacity: 100%; top: 0px;}
+            94% {opacity: 0%; top: 100px;}
+            100% {opacity: 0%;}
+
+        }
+        @keyframes cloud {
+            0% {left: 0px;}
+        }
+        @keyframes shelly {
+        0% {opacity: 0%;}
+        95% {opacity: 0%;}
+        100% {opacity: 100%;}
+        }
+        .text {
+            left: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <p class="text">ОСТОРОЖНО СКРИМЕР</p>
+    <img class="block block_1" src="./upload-5413e41b-0e44-4c7f-8cfb-e4476b4178f9.webp" alt="">
+    <img class="block block_2" src="./upload-5413e41b-0e44-4c7f-8cfb-e4476b4178f9.webp" alt="">
+    <img class="block block_3" src="./upload-5413e41b-0e44-4c7f-8cfb-e4476b4178f9.webp" alt="">
+    <img class="block block_4" src="./upload-5413e41b-0e44-4c7f-8cfb-e4476b4178f9.webp" alt="">
+    <img class="block block_5" src="./upload-5413e41b-0e44-4c7f-8cfb-e4476b4178f9.webp" alt="">
+    <img class="block block_6" src="./upload-5413e41b-0e44-4c7f-8cfb-e4476b4178f9.webp" alt="">
+    <img class="block block_7" src="./upload-5413e41b-0e44-4c7f-8cfb-e4476b4178f9.webp" alt="">
+    <img class="block block_8" src="./upload-5413e41b-0e44-4c7f-8cfb-e4476b4178f9.webp" alt="">
+    <img class="block_9" src="./upload-5413e41b-0e44-4c7f-8cfb-e4476b4178f9.webp" alt="">
+    <img class="block_10" src="./upload-5413e41b-0e44-4c7f-8cfb-e4476b4178f9.webp" alt="">
+    <img class="block_11" src="./upload-5413e41b-0e44-4c7f-8cfb-e4476b4178f9.webp" alt="">
+    <img class="luckyblock2" src="./lucky block.png.png" alt="">
+    <img class="mario" src="./upload-77713c2b-78d2-4a28-a5e0-e8cffc9cdc9a.gif" alt="">
+
+    <img class="cloud cloud_1" src="./upload-31722833-49f2-41c0-aa84-7b4374d7ef68.webp" alt="">
+    <img class="cloud cloud_2" src="./upload-dde2e1d7-210d-4744-824f-c46d19dad239.webp" alt="">
+    <img class="luckyblock" src="./lucky block.png.png" alt="">
+    <img class="coin" src="./coin.gif" alt="">
+    <img class="coin2" src="./coin.gif" alt="">
+    <img class="shelly" src="./ITKKB.jpg" alt="">
+    <audio src="super-mario-saundtrek.mp3"></audio>
+
+</body>
+</html>
